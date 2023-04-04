@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            height: 100vh;
+            overflow: hidden;
+            background: rgb(12,0,255);
+            background: linear-gradient(68deg, rgb(12 0 255 / 83%) 39%, rgb(0 212 255 / 81%) 100%);
+            position: relative;
+        }
+        section{
+            width: 20%;
+            border-right: 1px solid #ffffff42;
+            margin-left: -1px;
+            position: relative;
+        }
+        section span{
+            background-color: rgba(18, 18, 199, 0.536);
+            width: 100%;
+            display: block;
+            position: absolute;
+            right: -1px;
+        }        
+        section span:hover{
+            background-color: rgb(15 178 235 / 80%);
+            box-shadow: -1px 1px 45px #eceded;
+            border: 0.5px solid #ffffff29;
+        }
+        /* Custom blocks*/
+        section:nth-child(1) span{
+            top: 58vh;
+            height: 40vh;
+        }
+        section:nth-child(2) span{
+            top: 10vh;
+            height: 50vh;
+        }
+        section:nth-child(3) span{
+            top: 90vh;
+            height: 30vh;
+        }
+        section:nth-child(4) span{
+            top: 40vh;
+            height: 20vh;
+        }
+        section:nth-child(5) span{
+            top: 10vh;
+            height: 15vh;
+        }
+
+    </style>
+</head>
+<body>
+    <audio autoplay>
+        <source src="horse.mp3" type="audio/mpeg">
+    </audio>
+<main>      
+    <section id="block1">
+        <span></span>
+    </section>
+
+    <section id="block2">
+        <span></span>
+    </section>
+
+    <section id="block3">
+        <span></span>
+    </section>
+
+    <section id="block4">
+        <span></span>
+    </section>
+
+    <section id="block5">
+        <span></span>
+    </section>
+</main>
+
+    
+</body>
+</html>
